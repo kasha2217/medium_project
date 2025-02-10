@@ -54,7 +54,7 @@ cd ../frontend
 npm start
 The frontend will be available at http://localhost:3000, and the backend will run at http://localhost:5000.
 
-Usage
+#Usage
 Register a new account or login with existing credentials.
 Create a new article using the rich text editor.
 Edit or delete your articles from your profile.
