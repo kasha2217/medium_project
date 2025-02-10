@@ -21,14 +21,14 @@ A web application that allows users to read, write, and share articles, similar 
 
 Follow these steps to set up and run the project locally:
 
-### 1️ Clone the repository
+### 1️. Clone the repository
 
  bash
 git clone https://github.com/kasha2217/medium_project.git
 cd medium_project
 
 
-### 2 Install dependencies 
+### 2. Install dependencies 
 # For backend
 cd backend
 npm install
@@ -38,23 +38,23 @@ cd ../frontend
 npm install
 
 
-### 3 Setup environment variables 
+### 3. Setup environment variables 
 Create a .env file in the backend directory and add:
 PORT=5000
 MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 
-### 4 Start Application
+### 4. Start Application
 # Start backend server
 cd backend
 npm start
 
-# Start frontend development server
+### Start frontend development server
 cd ../frontend
 npm start
 The frontend will be available at http://localhost:3000, and the backend will run at http://localhost:5000.
 
-#Usage
+### Usage
 Register a new account or login with existing credentials.
 Create a new article using the rich text editor.
 Edit or delete your articles from your profile.
